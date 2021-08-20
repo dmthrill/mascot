@@ -13,6 +13,9 @@ animation.setSpeed(1);
 var bol = false;
 
 
+
+
+
 mascot.addEventListener('click', (e) => {
 if(bol==false){
 animation.playSegments([0,357],true);

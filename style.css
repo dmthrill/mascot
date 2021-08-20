@@ -4,18 +4,18 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
+  padding-top: 20px;
 }
 #mascot{
-  width: 100%;
+  /* margin-top: 64px; */
+  width: 75%;
   cursor: pointer;
 }
-.baixo_stroke, .meio_stroke, .cima_stroke{
-  stroke: black;
-  stroke-width: 20px;
-  stroke-linecap: round;
+.controls{
+  margin: 20px;
 }
-.X_stroke_01, .X_stroke_02{
-  stroke: black;
-  stroke-width: 20px;
-  stroke-linecap: round;
+.link {
+  margin: 8px;
+  text-decoration: none;
 }
